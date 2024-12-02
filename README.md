@@ -4,9 +4,13 @@
 
 ### Создание виртуального окружения
 
+```
 python -m venv venv
+```
 source venv/bin/activate  # Для Linux/Mac
+```
 venv\Scripts\activate     # Для Windows
+```
 
 
 Установка зависимостей
