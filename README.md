@@ -14,22 +14,22 @@ venv\Scripts\activate     # Для Windows
 pip install -r requirements.txt
 ```
 
-Применение миграций
+### Применение миграций
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-Swagger UI
+### Swagger UI
 http://127.0.0.1:8000/swagger/
 
-Административная панель
+### Административная панель
 http://127.0.0.1:8000/admin/
 
 
-API Эндпоинты
+### API Эндпоинты
 
-1 Получение списка справочников
+######  1 Получение списка справочников
 
 Параметры запроса:
 -date (опционально)
