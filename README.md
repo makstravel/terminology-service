@@ -42,6 +42,7 @@ http://127.0.0.1:8000/admin/
 #### 1 Получение списка справочников
 
 Параметры запроса:
+
 -date (опционально)
 
 GET /api/refbooks/?date=
@@ -52,14 +53,18 @@ GET /api/refbooks/?date=
 GET /api/refbooks/1/elements/?version=
 
 Параметры запроса:
+
 -version (опционально): Версия справочника.
 
 
 #### 3 Валидация элемента справочника
 
 Параметры запроса:
+
 -code: Код элемента.
+
 -value: Значение элемента.
+
 -version (опционально): Версия справочника.
 
 GET /api/refbooks/<id>/check_element?code=<code>&value=<value>[&version=<version>]
