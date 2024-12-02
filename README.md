@@ -1,8 +1,8 @@
-Проект использует Django и Django Rest Framework (DRF) для создания RESTful API.
+# Проект использует Django и Django Rest Framework (DRF) для создания RESTful API.
 
-Основные шаги по установке, настройке и использованию API, а также описания доступных эндпоинтов.
+## Основные шаги по установке, настройке и использованию API, а также описания доступных эндпоинтов.
 
-Создание виртуального окружения
+### Создание виртуального окружения
 
 python -m venv venv
 source venv/bin/activate  # Для Linux/Mac
@@ -10,12 +10,15 @@ venv\Scripts\activate     # Для Windows
 
 
 Установка зависимостей
-
+```
 pip install -r requirements.txt
+```
 
 Применение миграций
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
 Swagger UI
 http://127.0.0.1:8000/swagger/
@@ -49,4 +52,4 @@ GET /api/refbooks/1/elements/?version=
 -value: Значение элемента.
 -version (опционально): Версия справочника.
 
-GET /api/refbooks/<id>/check_element?code=<code>&value=<value> [&version=<version>]
+GET /api/refbooks/<id>/check_element?code=<code>&value=<value>[&version=<version>]
