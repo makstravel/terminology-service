@@ -1,4 +1,4 @@
-# Проект использует Django и Django Rest Framework (DRF) для создания RESTful API.
+# Проект использует Django и Django Rest Framework (DRF)
 
 ## Основные шаги по установке, настройке и использованию API, а также описания доступных эндпоинтов.
 
