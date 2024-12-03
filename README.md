@@ -69,4 +69,4 @@ GET /api/refbooks/1/elements/?version=
 
 -version (опционально): Версия справочника.
 
-GET /api/refbooks/<id>/check_element?code=<code>&value=<value>[&version=<version>]
+GET /api/refbooks/<id>/check_element?code=<code>&value=<value>&version=<version>
