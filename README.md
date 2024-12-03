@@ -7,11 +7,13 @@
 ```
 python -m venv venv
 ```
+### Для Linux/Mac
 ```
-source venv/bin/activate  # Для Linux/Mac
+source venv/bin/activate  
 ```
+### Для Windows
 ```
-venv\Scripts\activate     # Для Windows
+venv\Scripts\activate     
 ```
 
 
